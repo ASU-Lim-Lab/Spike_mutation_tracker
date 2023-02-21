@@ -129,7 +129,7 @@ Data visualization was performed on the sequence analysis output for SARS-CoV-2 
 
 Local directory structure should emulate the format in the visualization folder for this repository.
 - The main streamlit script should be in the parent directory while dashboard pages, and data should reside in their respective sub-directories. 
-- For more information on how to execute the script, visit 
+- For more information on how to execute the script, visit this [streamlit](https://docs.streamlit.io/knowledge-base/using-streamlit/how-do-i-run-my-streamlit-script) help page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
