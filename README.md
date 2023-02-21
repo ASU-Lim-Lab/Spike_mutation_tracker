@@ -63,15 +63,19 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This repository contains scripts used to analyze and visualize mutations in the SARS-CoV-2 spike gene.
-Current efforts involve detection of SARS-CoV-2 spike mutations that enable mAb resistance. 
+This repository contains scripts used to analyze and visualize mutations in the SARS-CoV-2 spike gene. <br>
+
+Current efforts involve detection of evolutionarily convergent SARS-CoV-2 spike mutations, mutations that enable mAb and antiviral resistance, and mutations that increase transmissibility of the disease. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1.79+, Streamlit 1.18.0+
+Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1.79+, Streamlit 1.18.0+.
+  - Anaconda distribution package recommended for conda installations.
+  - Pip installation requires pip 19.3+.
+
 
 ### Prerequisites
 
@@ -79,24 +83,37 @@ Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1
 * [![Pandas][Pandas]][Pandas-url]
 * [![Biopython][Biopython]][Biopython-url]
 * [![Streamlit][Streamlit]][Streamlit-url]
+* [![Plotly][Plotly]][Plotly-url]
 
 
 ### Installation
-
-  ```sh
-  conda install python
-  ```
-
+#### Pandas
   ```sh
   conda install pandas
   ```
-
+  ```sh
+  pip install pandas
+  ```
+#### Biopython
   ```sh
   conda install -c conda-forge biopython
   ```
-  
+  ```sh
+  pip install biopython
+  ```
+#### Streamlit
+  ```sh
+  conda install -c conda-forge streamlit
+  ```
   ```sh
   pip install streamlit
+  ```
+#### Plotly
+  ```sh
+  conda install -c plotly plotly_express
+  ```
+  ```sh
+  pip install plotly_express
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -117,7 +134,7 @@ Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1
 - [ ] Continued development of analysis and visualization script.
 <!-- - [ ] Feature 2 -->
 <!-- - [ ] Feature 3 -->
-<!--     - [ ] Nested Feature -->
+<!-- - [ ] Nested Feature -->
 <!-- 
 [Open issues](https://github.com/ASU-Lim-Lab/Absolute-Q/issues)
 
@@ -143,6 +160,7 @@ Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1
 [Pandas-url]: https://pandas.pydata.org/
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
-[streamlit]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
+[streamlit]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
 [streamlit-url]: https://docs.streamlit.io/library/get-started/installation
-
+[Plotly]: https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white
+[Plotly-url]: https://plotly.com/python/getting-started/
