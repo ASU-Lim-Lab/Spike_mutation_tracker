@@ -78,7 +78,7 @@ Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1
 * [![Python][Python]][Python-url]
 * [![Pandas][Pandas]][Pandas-url]
 * [![Biopython][Biopython]][Biopython-url]
-* [![Streamlit][Streamlit]][Streamlit]
+* [![Streamlit][Streamlit]][Streamlit-url]
 
 
 ### Installation
