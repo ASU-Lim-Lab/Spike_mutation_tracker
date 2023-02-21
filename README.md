@@ -125,6 +125,11 @@ Scripts are compatable with Python 3.7 - Python 3.11, Pandas 1.5.1+, Biopython 1
 
 ## Visualization
 
+Data visualization was performed on the sequence analysis output for SARS-CoV-2 sequences submitted to GISAID for the state of Arizona within the last 90 days. Visualization was performed using the python library plotly express and presented in a dashboard using the python library streamlit. 
+
+Local directory structure should emulate the format in the visualization folder for this repository.
+- The main streamlit script should be in the parent directory while dashboard pages, and data should reside in their respective sub-directories. 
+- For more information on how to execute the script, visit 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
