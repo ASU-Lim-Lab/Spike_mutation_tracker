@@ -63,7 +63,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This repository contains scripts to analyze and visualize mutations in the SARS-CoV-2 spike gene.
+This repository contains scripts used to analyze and visualize mutations in the SARS-CoV-2 spike gene.
 Current efforts involve detection of SARS-CoV-2 spike mutations that enable mAb resistance. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
