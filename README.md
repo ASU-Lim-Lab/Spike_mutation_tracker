@@ -9,22 +9,22 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
 <!-- [![Forks][forks-shield]][forks-url] -->
 <!-- [![Issues][issues-shield]][issues-url] -->
 <!-- [![MIT License][license-shield]][license-url] -->
 
 <!-- PROJECT LOGO -->
-<br />
+<!-- <br />
 <div align="center">
   <a href="https://github.com/ASU-Lim-Lab/Spike_mutation_tracker">
     <img src="logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Spike mutation tracker</h3>
 
   <p align="center">
-    Scripts
+    Directory
     <br />
     <a href="https://github.com/ASU-Lim-Lab/Spike_mutation_tracker/tree/main/sequence%20analysis"><strong>Sequence analysis »</strong></a>
     <br />
@@ -50,8 +50,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Sequence-analysis">Sequence Analysis</a></li>
-    <li><a href="#visualization">Visualization</a></li>
+    <li><a href="#sequence-analysis">Sequence analysis</a></li>
+    <li><a href="#visualization">visualization</a></li>
 <!--     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributors">Contributors</a></li> -->
   </ol>
